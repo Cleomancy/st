@@ -281,23 +281,13 @@ xrealloc(void *p, size_t len)
 	return p;
 }
 
-/*char *
+char *
 xstrdup(char *s)
 {
 	if ((s = strdup(s)) == NULL)
 		die("strdup: %s\n", strerror(errno));
 
 	return s;
-}*/
-char *
-xstrdup(const char *s)
-{
-	char *p;
-
-	if ((p = strdup(s)) == NULL)
-		die("strdup: %s\n", strerror(errno));
-
-	return p;
 }
 
 size_t
