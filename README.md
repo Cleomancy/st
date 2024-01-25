@@ -1,4 +1,4 @@
-# Luke smith's ST
+# Luke Smith's ST
 
 ![ST logo](st.svg)
 
