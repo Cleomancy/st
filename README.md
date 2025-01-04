@@ -3,16 +3,25 @@
 ![ST logo](st.svg)
 
 ## Rice:
-I use DWM with slstatus, st is my terminal and dmenu is my god.
-Somehow [Luke Smith's current repo](https://github.com/LukeSmithxyz/st/) for st displays weirdly on my pc when I zoom.
-So I use an older build of his I found on my PC from 2019. I fixed 1 shortcut, that's it. The rest just works.
+I use DWM with dwmblocks, st is my terminal and dmenu is my god.
+This is my build of ST
+
+## Patches:
+
+- [Scrollback](https://st.suckless.org/patches/scrollback/)
+- [Boxdraw](https://st.suckless.org/patches/boxdraw/)
+- [Glyph Wide Support](https://st.suckless.org/patches/glyph_wide_support/)
+- [Xresources](https://st.suckless.org/patches/xresources/)
+- [External Pipe](https://st.suckless.org/patches/externalpipe/)
+- [Alpha](https://st.suckless.org/patches/alpha/)
+- [Expected Anysize](https://st.suckless.org/patches/anysize/)
+- [Font2](https://st.suckless.org/patches/font2/)
 
 ## Prerequisites:
 I use arch btw,
 ```
-pacman -Sy base-devel xorg-server xorg-xinit libxinerama libxft feh unclutter ttf-font-awesome ttf-hack
+pacman -Sy base-devel xorg-server xorg-xinit libxinerama libxft
 ```
-You can already guess my dotfiles.
 
 ## Install:
 ```
@@ -23,4 +32,3 @@ sudo make clean install
 ## Credits:
 
 - [st](https://st.suckless.org/) obviously
-- and [Luke Smith](https://lukesmith.xyz/donate/) himself for doing 99% of the work
