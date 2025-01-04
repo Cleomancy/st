@@ -1,4 +1,4 @@
-# Luke Smith's ST
+# Glorious ST
 
 ![ST logo](st.svg)
 
